@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-09-21
+
+### Changed
+- Adapted the scraper for **DEDEMAN S.R.L.** (CIF `2816464`), replacing the
+  E-INFRA/applytojob source with the Dedeman careers board
+  (`https://recrutare.dedeman.ro`).
+- `scraper/index.py` now consumes the sinapsi JSON API
+  (`POST /api/sinapsi/jobs`) instead of parsing board HTML; `parse_api_jobs`
+  reads `d.JobAnnounces` and job URLs are built as
+  `/detalii-post?job=<title>&id=<id>`.
+- `scraper/config/company.json` and `scraper/config/scraper.json` now hold the
+  Dedeman identity and API endpoints (single source of truth).
+- Stale-job deletion scoped to the Dedeman board prefix
+  (`/detalii-post?`), taken from `scraper.json`.
+- Added Dedeman store cities missing from the location allow-list
+  (Alexandria, Barlad, Medias, Sfantu Gheorghe, Miercurea Ciuc,
+  Campulung Moldovenesc).
+- Removed the now-unused `beautifulsoup4` dependency.
+- README, `docs/`, `ai/` documentation, workflows and tests updated to the
+  Dedeman repo identity.
+
 ## [1.0.0] - 2026-08-03
 
 ### Added

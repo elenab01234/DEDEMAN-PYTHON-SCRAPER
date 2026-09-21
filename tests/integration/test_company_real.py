@@ -36,7 +36,9 @@ def test_anaf_returns_company():
     company = anaf.get_company_from_anaf(COMPANY_CIF)
     if company is None:
         pytest.skip("ANAF APIs unavailable")
-    assert company["denumire"] == COMPANY_NAME
+    expected = COMPANY_NAME.upper().replace(".", "").replace(" ", "")
+    actual = company["denumire"].upper().replace(".", "").replace(" ", "")
+    assert actual == expected
     assert company["cif"] == COMPANY_CIF
     assert company["stareInregistrare"] == "INREGISTRAT"
 

@@ -1,6 +1,5 @@
 {
-  "apiBase": "https://electrogrup.applytojob.com",
-  "apiPath": "/apply/jobs",
-  "department": "E-INFRA",
-  "jobDetailsPrefix": "https://electrogrup.applytojob.com/apply/jobs/details/"
+  "apiBase": "https://recrutare.dedeman.ro",
+  "apiPath": "/api/sinapsi/jobs",
+  "jobDetailsPrefix": "https://recrutare.dedeman.ro/detalii-post?"
 }

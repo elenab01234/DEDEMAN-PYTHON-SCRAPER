@@ -49,13 +49,13 @@ Standardized job document published to peviitor SOLR.
 
 ```json
 {
-  "url": "https://electrogrup.applytojob.com/apply/jobs/details/bClwIJnZdv",
-  "title": "Inginer Ofertare Energetic",
-  "company": "E-INFRA S.A.",
-  "cif": "38647188",
-  "location": ["Bucuresti"],
+  "url": "https://recrutare.dedeman.ro/detalii-post?job=Inginer%20constructor&id=ef131095-d032-4f5d-a93d-809f561ef5b8",
+  "title": "Inginer constructor",
+  "company": "DEDEMAN S.R.L.",
+  "cif": "2816464",
+  "location": ["Bacau"],
   "workmode": "on-site",
-  "date": "2026-08-03T00:00:00Z",
+  "date": "2026-09-21T00:00:00Z",
   "status": "scraped"
 }
 ```

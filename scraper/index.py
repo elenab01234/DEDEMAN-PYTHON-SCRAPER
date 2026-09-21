@@ -1,20 +1,20 @@
 """
-E-INFRA S.A. applytojob Scraper — derived from the ELECTROGRUP Python template.
+DEDEMAN S.R.L. careers Scraper — derived from the e-infra-sa-python-scraper template.
 
-Scrapes E-INFRA job listings from the group applytojob board (electrogrup.applytojob.com) filtered by
-department, validates the company via ANAF, and publishes jobs/company data
-to peviitor.ro through the v1 API (api.peviitor.ro/v1) — no direct Solr access.
+Scrapes DEDEMAN job listings from the sinapsi JSON API behind
+recrutare.dedeman.ro (the company careers board), validates the company via
+ANAF, and publishes jobs/company data to peviitor.ro through the v1 API
+(api.peviitor.ro/v1) — no direct Solr access.
 """
 
 import datetime
 import json
 import pathlib
-import re
 import sys
 import time
+from urllib.parse import quote
 
 import requests
-from bs4 import BeautifulSoup
 
 from .anaf import search_anofm
 from .api import delete_job_by_url, delete_jobs_by_cif, query_solr, upsert_company, upsert_jobs
@@ -28,25 +28,25 @@ HEADERS = {"User-Agent": "job_seeker_ro_spider"}
 COMPANY_CIF = company_config["id"]
 API_BASE = scraper_config["apiBase"]
 API_PATH = scraper_config["apiPath"]
-DEPARTMENT = scraper_config["department"]
 
 COMPANY_NAME = None
 
 # Jobs stored in SOLR under this CIF may be published by other peviitor
 # scrapers (aggregators). Stale deletion must only ever touch jobs that this
-# scraper itself published (i.e. URLs on the group's applytojob board), so we
+# scraper itself published (i.e. URLs on the Dedeman careers board), so we
 # scope it to this prefix instead of the whole CIF.
-JOB_DETAILS_PREFIX = f"{API_BASE}/apply/jobs/details/"
+JOB_DETAILS_PREFIX = scraper_config.get("jobDetailsPrefix", f"{API_BASE}/detalii-post?")
 
 
 def build_listing_url():
-    """Builds the applytojob listing URL with the company department filter."""
-    return f"{API_BASE}{API_PATH}/?department={DEPARTMENT}"
+    """Builds the sinapsi jobs API URL for the Dedeman careers board."""
+    return f"{API_BASE}{API_PATH}"
 
 
-def build_job_url(job_id):
-    """Builds the canonical job detail URL (no query string)."""
-    return f"{API_BASE}/apply/jobs/details/{job_id}"
+def build_job_url(job_id, title=None):
+    """Builds the canonical job detail URL (sinapsi GUI query)."""
+    slug = quote((title or "").strip())
+    return f"{API_BASE}/detalii-post?job={slug}&id={job_id}"
 
 
 def extract_location(location_text):
@@ -61,53 +61,40 @@ def extract_location(location_text):
     return [first]
 
 
-def parse_api_jobs(html):
-    """Parses the applytojob board HTML into raw job dicts."""
-    soup = BeautifulSoup(html, "html.parser")
+def parse_api_jobs(payload):
+    """Parses the sinapsi jobs API JSON into raw job dicts."""
+    announces = (payload or {}).get("d", {}).get("JobAnnounces") or []
     jobs = []
     seen_ids = set()
 
-    for link in soup.find_all("a", class_="job_title_link"):
-        href = link.get("href") or ""
-        m = re.search(r"/details/([^/?]+)", href)
-        if not m:
-            continue
-        job_id = m.group(1)
-        if job_id in seen_ids:
+    for entry in announces:
+        job_id = entry.get("Id")
+        title = entry.get("Function") or ""
+        if not job_id or job_id in seen_ids or not title:
             continue
         seen_ids.add(job_id)
 
-        title = link.get_text(strip=True)
-        location = "România"
-
-        row = link.find_parent("tr")
-        if row:
-            cells = row.find_all("td")
-            if len(cells) > 1:
-                location = cells[1].get_text(strip=True) or location
-        else:
-            loc_tag = link.find_parent("div", class_="row_job")
-            if loc_tag:
-                span = loc_tag.find("span", class_="resumator_description")
-                if span and "Location:" in span.get_text():
-                    location = span.get_text().replace("Location:", "").strip()
-
         jobs.append({
-            "url": build_job_url(job_id),
+            "url": build_job_url(job_id, title),
             "title": title,
-            "location": extract_location(location),
+            "location": extract_location(entry.get("City")),
         })
 
     return jobs
 
 
 def fetch_listing():
-    """Fetches the board HTML for the company department."""
+    """Fetches the Dedeman jobs JSON via the sinapsi API."""
     url = build_listing_url()
-    res = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+    res = requests.post(
+        url,
+        json={"request": {"FilterByCity": ""}},
+        headers={**HEADERS, "Content-Type": "application/json"},
+        timeout=TIMEOUT,
+    )
     if res.status_code != 200:
         raise RuntimeError(f"Listing error: {res.status_code} for {url}")
-    return res.text
+    return res.json()
 
 
 def map_to_job_model(raw_job, cif, company_name=None):
@@ -144,6 +131,9 @@ _ROMANIAN_CITIES = [
     "Medgidia", "Gura Ialomiței", "Gura Ialomitei",
     "Dumbrăvița", "Dumbravita", "Voluntari", "Popești-Leordeni", "Popesti-Leordeni",
     "Chitila", "Mogoșoaia", "Mogosoaia", "Otopeni",
+    "Alexandria", "Bârlad", "Barlad", "Mediaș", "Medias",
+    "Sfântu Gheorghe", "Sfantu Gheorghe", "Miercurea Ciuc",
+    "Câmpulung Moldovenesc", "Campulung Moldovenesc",
 ]
 
 _DIACRITIC_MAP = str.maketrans("ăâîșțĂÂÎȘȚ", "aaistAAIST")
@@ -197,7 +187,7 @@ def transform_jobs_for_solr(payload):
 
 
 def scrape_all_listings():
-    """Fetches and parses all jobs for the company department."""
+    """Fetches all jobs from the Dedeman careers board and parses them."""
     html = fetch_listing()
     return parse_api_jobs(html)
 
@@ -243,7 +233,7 @@ def main(root=None):
 
     raw_jobs = scrape_all_listings()
     scraped_count = len(raw_jobs)
-    print(f"Jobs scraped from the E-INFRA applytojob board: {scraped_count}")
+    print(f"Jobs scraped from the Dedeman careers board: {scraped_count}")
 
     if not test_only_one_page:
         anofm_jobs = search_anofm(validated["cif"])
@@ -258,7 +248,7 @@ def main(root=None):
     jobs = [map_to_job_model(job, validated["cif"]) for job in raw_jobs]
 
     payload = {
-        "source": "electrogrup.applytojob.com",
+        "source": "recrutare.dedeman.ro",
         "scrapedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "company": COMPANY_NAME,
         "cif": validated["cif"],
@@ -323,7 +313,7 @@ def main(root=None):
     final_result = query_solr(COMPANY_CIF)
     print(f"\n=== SUMMARY ===")
     print(f"Jobs existing in SOLR before scrape: {existing_count}")
-    print(f"Jobs scraped from the E-INFRA applytojob board: {scraped_count}")
+    print(f"Jobs scraped from the Dedeman careers board: {scraped_count}")
     print(f"Stale jobs attempted: {len(stale_urls)}")
     print(f"Jobs in SOLR after scrape: {final_result['numFound']}")
     print(f"====================")

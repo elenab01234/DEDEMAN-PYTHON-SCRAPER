@@ -30,9 +30,9 @@ def test_company_config_id_is_numeric(company_config):
 
 
 def test_scraper_config_shape(scraper_config):
-    assert scraper_config["apiBase"] == "https://electrogrup.applytojob.com"
-    assert scraper_config["apiPath"] == "/apply/jobs"
-    assert scraper_config["department"]
+    assert scraper_config["apiBase"] == "https://recrutare.dedeman.ro"
+    assert scraper_config["apiPath"] == "/api/sinapsi/jobs"
+    assert scraper_config["jobDetailsPrefix"].startswith("https://recrutare.dedeman.ro/")
 
 
 def test_configs_are_json_files():

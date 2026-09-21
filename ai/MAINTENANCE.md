@@ -5,7 +5,7 @@
 Before any work, check open issues and fix them:
 
 ```bash
-gh issue list --repo ale23yfm/e-infra-sa-python-scraper --state open
+gh issue list --repo elenab01234/DEDEMAN-PYTHON-SCRAPER --state open
 ```
 
 Prioritize `critical` → `bug` → `enhancement` → `documentation`. For each
@@ -24,20 +24,22 @@ appropriate, and move on.
 - Validate job URLs periodically:
 
 ```bash
-python3 -m scraper.validate_jobs 38647188 --mode content --dry-run
-python3 -m scraper.validate_jobs 38647188 --mode content --delete
+python3 -m scraper.validate_jobs 2816464 --mode content --dry-run
+python3 -m scraper.validate_jobs 2816464 --mode content --delete
 ```
 
 ## Board structure changes
 
-If `parse_api_jobs` returns 0 or few jobs, inspect the applytojob page:
+If `parse_api_jobs` returns 0 or few jobs, inspect the Dedeman sinapsi API:
 
 ```bash
-curl -s "https://electrogrup.applytojob.com/apply/jobs/?department=E-INFRA"
+curl -s -X POST "https://recrutare.dedeman.ro/api/sinapsi/jobs" \
+  -H "Content-Type: application/json" \
+  -d '{"request":{"FilterByCity":""}}'
 ```
 
-Update the parser selectors in `scraper/index.py` (`a.job_title_link`,
-`tr/td`) and the expected count in `tests/e2e/test_scraper.py`.
+Update `parse_api_jobs` in `scraper/index.py` (reads `d.JobAnnounces`)
+and the expected count in `tests/e2e/test_scraper.py`.
 
 ## Company data changes
 

@@ -1,16 +1,16 @@
 {
-  "id": "38647188",
-  "company": "E-INFRA S.A.",
-  "brand": "E-INFRA",
+  "id": "2816464",
+  "company": "DEDEMAN S.R.L.",
+  "brand": "DEDEMAN",
   "status": "activ",
   "location": [
-    "Bucuresti"
+    "Bacău"
   ],
   "website": [
-    "https://e-infra.ro"
+    "https://www.dedeman.ro"
   ],
   "career": [
-    "https://e-infra.ro/careers/"
+    "https://recrutare.dedeman.ro"
   ],
-  "scraperFile": "https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://github.com/elenab01234/DEDEMAN-PYTHON-SCRAPER/actions/workflows/job-seeker-ro-spider.yml"
 }

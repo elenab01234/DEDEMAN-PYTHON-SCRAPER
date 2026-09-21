@@ -1,1 +1,1 @@
-"""E-INFRA Python scraper package."""
+"""DEDEMAN Python scraper package."""

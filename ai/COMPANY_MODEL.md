@@ -39,13 +39,13 @@ config when available.
 
 ```json
 {
-  "id": "38647188",
-  "company": "E-INFRA S.A.",
-  "brand": "E-INFRA",
+  "id": "2816464",
+  "company": "DEDEMAN S.R.L.",
+  "brand": "DEDEMAN",
   "status": "activ",
-  "location": ["Bucuresti"],
-  "website": ["https://e-infra.ro"],
-  "career": ["https://e-infra.ro/careers/"],
-  "scraperFile": "https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
+  "location": ["Bacău"],
+  "website": ["https://www.dedeman.ro"],
+  "career": ["https://recrutare.dedeman.ro"],
+  "scraperFile": "https://github.com/elenab01234/DEDEMAN-PYTHON-SCRAPER/actions/workflows/job-seeker-ro-spider.yml"
 }
 ```

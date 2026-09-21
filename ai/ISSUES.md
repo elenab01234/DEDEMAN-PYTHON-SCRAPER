@@ -1,6 +1,6 @@
 # Issues
 
-Acest proiect folosește [GitHub Issues](https://github.com/ale23yfm/e-infra-sa-python-scraper/issues) pentru a urmări munca.
+Acest proiect folosește [GitHub Issues](https://github.com/elenab01234/DEDEMAN-PYTHON-SCRAPER/issues) pentru a urmări munca.
 
 ## Regulă
 
@@ -19,13 +19,13 @@ Excepții:
 
 ## Issue-uri deschise
 
-Vezi [toate issue-urile](https://github.com/ale23yfm/e-infra-sa-python-scraper/issues).
+Vezi [toate issue-urile](https://github.com/elenab01234/DEDEMAN-PYTHON-SCRAPER/issues).
 
 ## Common issues
 
 | Symptom | Likely cause | Action |
 |---------|--------------|--------|
-| `0` jobs parsed | Board HTML changed | Update selectors in `scraper/index.py` |
+| `0` jobs parsed | Board JSON API changed | Update `parse_api_jobs` in `scraper/index.py` |
 | Company INACTIVE | ANAF status change | Do not scrape; jobs get deleted |
 | API 401/403 | Token/endpoint change | Check `scraper/api.py` |
 | Tests fail offline | Network-dependent test | Ensure `pytest.skip` on unreachable hosts |
@@ -34,4 +34,4 @@ Vezi [toate issue-urile](https://github.com/ale23yfm/e-infra-sa-python-scraper/i
 ## Escalation
 
 For peviitor API problems, contact the peviitor maintainers with the CIF
-`38647188` and the failing endpoint.
+`2816464` and the failing endpoint.

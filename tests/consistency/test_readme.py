@@ -54,8 +54,8 @@ def test_readme_content_is_english():
 
 def test_readme_company_link_points_to_official_careers():
     readme = _readme()
-    assert "https://e-infra.ro/ro/cariere/" in readme, "README.md must link the E-INFRA official careers page"
-    assert "electrogrup.applytojob.com" not in readme, "README.md must not link the electrogrup applytojob board"
+    assert "https://recrutare.dedeman.ro" in readme, "README.md must link the Dedeman careers page"
+    assert "applytojob.com" not in readme, "README.md must not link the electrogrup applytojob board"
 
 
 def test_readme_license_owner():
@@ -67,7 +67,7 @@ def test_readme_license_owner():
 
 def test_readme_badges_match_repo():
     readme = _readme()
-    assert "https://ale23yfm.github.io/e-infra-sa-python-scraper/" in readme, "README.md must link the GitHub Pages site"
+    assert "https://elenab01234.github.io/DEDEMAN-PYTHON-SCRAPER/" in readme, "README.md must link the GitHub Pages site"
     wf = ROOT / ".github" / "workflows" / "job-seeker-ro-spider.yml"
     if not wf.exists():
         pytest.skip("workflow file not present")
