@@ -328,7 +328,7 @@ div.media {
   </head>
   <body>
     <h1 id="title">post-scrape.html</h1>
-    <p>Report generated on 23-Nov-2026 at 18:51:58 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+    <p>Report generated on 24-Nov-2026 at 18:28:57 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
         v4.2.0</p>
     <div id="environment-header">
       <h2>Environment</h2>
@@ -383,7 +383,7 @@ div.media {
         <h2>Summary</h2>
         <div class="additional-summary prefix">
         </div>
-        <p class="run-count">1 test took 00:00:01.</p>
+        <p class="run-count">1 test took 832 ms.</p>
         <p class="filter">(Un)check the boxes to filter the results.</p>
         <div class="summary__reload">
           <div class="summary__reload__button hidden" onclick="location.reload()">
@@ -393,10 +393,10 @@ div.media {
         <div class="summary__spacer"></div>
         <div class="controls">
           <div class="filters">
-            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled>
-            <span class="failed">0 Failed,</span>
-            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" >
-            <span class="passed">1 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" >
+            <span class="failed">1 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" disabled>
+            <span class="passed">0 Passed,</span>
             <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled>
             <span class="skipped">0 Skipped,</span>
             <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled>
@@ -431,7 +431,7 @@ div.media {
       </thead>
     </table>
   <footer>
-    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.16&#34;, &#34;Platform&#34;: &#34;Linux-7.0.0-1020-azure-x86_64-with-glibc2.43&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;9.2.0&#34;, &#34;pluggy&#34;: &#34;1.7.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.2.0&#34;, &#34;cov&#34;: &#34;7.1.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}, &#34;CI&#34;: &#34;true&#34;, &#34;JAVA_HOME&#34;: &#34;/usr/lib/jvm/temurin-25-jdk-amd64&#34;}, &#34;tests&#34;: {&#34;tests/e2e/test_scraper.py::test_scrape_real_board&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/e2e/test_scraper.py::test_scrape_real_board&#34;, &#34;duration&#34;: &#34;00:00:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/e2e/test_scraper.py::test_scrape_real_board&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;post-scrape.html&#34;}"></div>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.16&#34;, &#34;Platform&#34;: &#34;Linux-7.0.0-1016-aws-x86_64-with-glibc2.43&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;9.2.0&#34;, &#34;pluggy&#34;: &#34;1.7.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.2.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;cov&#34;: &#34;7.1.0&#34;}, &#34;CI&#34;: &#34;true&#34;, &#34;JAVA_HOME&#34;: &#34;/usr/lib/jvm/temurin-25-jdk-amd64&#34;}, &#34;tests&#34;: {&#34;tests/e2e/test_scraper.py::test_scrape_real_board&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/e2e/test_scraper.py::test_scrape_real_board&#34;, &#34;duration&#34;: &#34;798 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/e2e/test_scraper.py::test_scrape_real_board&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;798 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;def test_scrape_real_board():\n        if not _board_reachable():\n            pytest.skip(&amp;quot;recrutare.dedeman.ro not reachable&amp;quot;)\n&amp;gt;       payload = index.fetch_listing()\n                  ^^^^^^^^^^^^^^^^^^^^^\n\ntests/e2e/test_scraper.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def fetch_listing():\n        &amp;quot;&amp;quot;&amp;quot;Fetches the Dedeman jobs JSON via the sinapsi API.&amp;quot;&amp;quot;&amp;quot;\n        url = build_listing_url()\n        res = requests.post(\n            url,\n            json={&amp;quot;request&amp;quot;: {&amp;quot;FilterByCity&amp;quot;: &amp;quot;&amp;quot;}},\n            headers={**HEADERS, &amp;quot;Content-Type&amp;quot;: &amp;quot;application/json&amp;quot;},\n            timeout=TIMEOUT,\n        )\n        if res.status_code != 200:\n&amp;gt;           raise RuntimeError(f&amp;quot;Listing error: {res.status_code} for {url}&amp;quot;)\nE           RuntimeError: Listing error: 403 for https://recrutare.dedeman.ro/api/sinapsi/jobs\n\nscraper/index.py:96: RuntimeError\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;post-scrape.html&#34;}"></div>
     <script>
       (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
