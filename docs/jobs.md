@@ -8,68 +8,188 @@
 | Brand | DEDEMAN |
 | Website | https://www.dedeman.ro |
 | Career | https://recrutare.dedeman.ro |
-| LastScraped | 2026-09-21 |
+| LastScraped | 2026-11-27 |
 
 ## Jobs (36)
 
-### Agent securitate incinte
+### Sofer profesionist
 
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate%20incinte&id=ebcd901a-7d43-4d81-a62a-fe641d5918c0](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate%20incinte&id=ebcd901a-7d43-4d81-a62a-fe641d5918c0)
-- **Location**: Arad
-- **Status**: scraped
-
-### Consultant vanzari - instalatii termice
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20instalatii%20termice&id=a468b7b2-7593-4a81-a9a7-51d475bbadc3](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20instalatii%20termice&id=a468b7b2-7593-4a81-a9a7-51d475bbadc3)
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Sofer%20profesionist&id=ea52a9df-1b0d-4f69-a1d4-069f91e5a9c0](https://recrutare.dedeman.ro/detalii-post?job=Sofer%20profesionist&id=ea52a9df-1b0d-4f69-a1d4-069f91e5a9c0)
 - **Location**: Bucuresti
 - **Status**: scraped
 
-### Consultant vanzari
+### Referent servicii clienti
 
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=ce2c74ce-671e-456c-98b1-800c0b17635d](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=ce2c74ce-671e-456c-98b1-800c0b17635d)
-- **Location**: Campulung Moldovenesc
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Referent%20servicii%20clienti&id=9fe5f331-d291-4518-9148-68857a9d4eda](https://recrutare.dedeman.ro/detalii-post?job=Referent%20servicii%20clienti&id=9fe5f331-d291-4518-9148-68857a9d4eda)
+- **Location**: Ploiesti
 - **Status**: scraped
 
 ### Consultant vanzari - gradina
 
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20gradina&id=9091a0f6-f20d-4f03-9413-27b62ce2b921](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20gradina&id=9091a0f6-f20d-4f03-9413-27b62ce2b921)
-- **Location**: Pitesti
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20gradina&id=f0713ef5-774d-4704-8cd5-d3263ba15f24](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20gradina&id=f0713ef5-774d-4704-8cd5-d3263ba15f24)
+- **Location**: Braila
+- **Status**: scraped
+
+### Dispecer magazin
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Dispecer%20magazin&id=daac2e49-b64a-4e18-9857-e9a44f644288](https://recrutare.dedeman.ro/detalii-post?job=Dispecer%20magazin&id=daac2e49-b64a-4e18-9857-e9a44f644288)
+- **Location**: Alexandria
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=7414ccc5-f214-4a5b-aa19-ed9b0067ac3a](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=7414ccc5-f214-4a5b-aa19-ed9b0067ac3a)
+- **Location**: România
+- **Status**: scraped
+
+### Receptioner marfa
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Receptioner%20marfa&id=f46ae569-4162-4356-95f8-6d3406d7e6bc](https://recrutare.dedeman.ro/detalii-post?job=Receptioner%20marfa&id=f46ae569-4162-4356-95f8-6d3406d7e6bc)
+- **Location**: Ploiesti
+- **Status**: scraped
+
+### Agent securitate
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=3d3c1476-95b1-434a-98c6-0db93807740e](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=3d3c1476-95b1-434a-98c6-0db93807740e)
+- **Location**: Sfantu Gheorghe
+- **Status**: scraped
+
+### Agent securitate
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=4d892755-42c1-40a4-8519-c4736d50912a](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=4d892755-42c1-40a4-8519-c4736d50912a)
+- **Location**: Baia Mare
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=1c3a6335-cad7-4633-9bd2-a1b812b11c21](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=1c3a6335-cad7-4633-9bd2-a1b812b11c21)
+- **Location**: Barlad
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=73263511-a84d-4c7f-a1ec-e66a875ff2e7](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=73263511-a84d-4c7f-a1ec-e66a875ff2e7)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### Receptioner marfa
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Receptioner%20marfa&id=18b66197-d558-40cf-94e0-649d8569e7bd](https://recrutare.dedeman.ro/detalii-post?job=Receptioner%20marfa&id=18b66197-d558-40cf-94e0-649d8569e7bd)
+- **Location**: Alexandria
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=803ce865-d361-435b-bddd-e9c71c2589dc](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=803ce865-d361-435b-bddd-e9c71c2589dc)
+- **Location**: Campulung Moldovenesc
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=5e70f108-e20e-4abc-ac0d-7595ca45db76](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=5e70f108-e20e-4abc-ac0d-7595ca45db76)
+- **Location**: Roman
+- **Status**: scraped
+
+### Personal curatenie
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Personal%20curatenie&id=66e96f63-d8fe-43a1-b22f-b7578af6493b](https://recrutare.dedeman.ro/detalii-post?job=Personal%20curatenie&id=66e96f63-d8fe-43a1-b22f-b7578af6493b)
+- **Location**: Targu Mures
+- **Status**: scraped
+
+### Lucrator pepiniera
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Lucrator%20pepiniera&id=e6c553e0-496d-4730-861a-a19f3828bf99](https://recrutare.dedeman.ro/detalii-post?job=Lucrator%20pepiniera&id=e6c553e0-496d-4730-861a-a19f3828bf99)
+- **Location**: Bacau
+- **Status**: scraped
+
+### Agent securitate incinte
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate%20incinte&id=1010c654-692f-4535-ac98-24d974952bc6](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate%20incinte&id=1010c654-692f-4535-ac98-24d974952bc6)
+- **Location**: Campulung Moldovenesc
+- **Status**: scraped
+
+### Agent securitate incinte
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate%20incinte&id=6f3801f1-43dc-4429-ab13-acc3cebd47d0](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate%20incinte&id=6f3801f1-43dc-4429-ab13-acc3cebd47d0)
+- **Location**: Bacau
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=6e0fb57e-a056-42ee-bf8a-a6198be5e205](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=6e0fb57e-a056-42ee-bf8a-a6198be5e205)
+- **Location**: Bacau
 - **Status**: scraped
 
 ### Referent livrari la domiciliu
 
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Referent%20livrari%20la%20domiciliu&id=7fcb8dbc-1ab3-404c-a092-3c0aa3a6e565](https://recrutare.dedeman.ro/detalii-post?job=Referent%20livrari%20la%20domiciliu&id=7fcb8dbc-1ab3-404c-a092-3c0aa3a6e565)
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Referent%20livrari%20la%20domiciliu&id=8f66c485-c16e-4034-813a-26042caef226](https://recrutare.dedeman.ro/detalii-post?job=Referent%20livrari%20la%20domiciliu&id=8f66c485-c16e-4034-813a-26042caef226)
+- **Location**: Bacau
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=e102938a-5c56-4266-908b-0f9aa4c1da5f](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=e102938a-5c56-4266-908b-0f9aa4c1da5f)
+- **Location**: Galati
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=e5f8b0a5-eb7f-475d-ab62-36f391e6af2a](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=e5f8b0a5-eb7f-475d-ab62-36f391e6af2a)
+- **Location**: Ploiesti
+- **Status**: scraped
+
+### Consultant vanzari
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=9bbbe2a3-068f-463b-8bb1-1deb0062b00b](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=9bbbe2a3-068f-463b-8bb1-1deb0062b00b)
+- **Location**: Alexandria
+- **Status**: scraped
+
+### Consultant vanzari proiecte
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20proiecte&id=3cb7bdff-e643-410a-924b-2b3929b5cca7](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20proiecte&id=3cb7bdff-e643-410a-924b-2b3929b5cca7)
 - **Location**: Constanta
+- **Status**: scraped
+
+### Consultant vanzari proiecte
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20proiecte&id=21d41332-56e1-4fc5-8f69-b20335ce46be](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20proiecte&id=21d41332-56e1-4fc5-8f69-b20335ce46be)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### Tester Software - Bacau
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Tester%20Software%20-%20Bacau&id=f4629b4a-bec5-4810-86bc-52806ab3cb89](https://recrutare.dedeman.ro/detalii-post?job=Tester%20Software%20-%20Bacau&id=f4629b4a-bec5-4810-86bc-52806ab3cb89)
+- **Location**: Bacau
+- **Status**: scraped
+
+### Inginer constructor
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Inginer%20constructor&id=ef131095-d032-4f5d-a93d-809f561ef5b8](https://recrutare.dedeman.ro/detalii-post?job=Inginer%20constructor&id=ef131095-d032-4f5d-a93d-809f561ef5b8)
+- **Location**: Bacau
+- **Status**: scraped
+
+### Inginer DevOps Junior - Bucuresti
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Inginer%20DevOps%20Junior%20-%20Bucuresti&id=65fec859-89e6-4892-a46e-75dde55c8b49](https://recrutare.dedeman.ro/detalii-post?job=Inginer%20DevOps%20Junior%20-%20Bucuresti&id=65fec859-89e6-4892-a46e-75dde55c8b49)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### Inginer DevOps Middle - Bucuresti
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Inginer%20DevOps%20Middle%20-%20Bucuresti&id=d47e0047-d3c6-4e27-af01-33bc07d31480](https://recrutare.dedeman.ro/detalii-post?job=Inginer%20DevOps%20Middle%20-%20Bucuresti&id=d47e0047-d3c6-4e27-af01-33bc07d31480)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### Stivuitorist
+
+- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Stivuitorist&id=632173c2-3ebe-4aaf-8018-194dfcf2f720](https://recrutare.dedeman.ro/detalii-post?job=Stivuitorist&id=632173c2-3ebe-4aaf-8018-194dfcf2f720)
+- **Location**: Alexandria
 - **Status**: scraped
 
 ### Consultant vanzari
 
 - **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=83fb4cf1-1c98-4888-bf47-ac46708d28c5](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=83fb4cf1-1c98-4888-bf47-ac46708d28c5)
 - **Location**: Sfantu Gheorghe
-- **Status**: scraped
-
-### Referent livrari la domiciliu
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Referent%20livrari%20la%20domiciliu&id=8450e453-8a7d-4ba2-9e2f-ccf2d833ccd8](https://recrutare.dedeman.ro/detalii-post?job=Referent%20livrari%20la%20domiciliu&id=8450e453-8a7d-4ba2-9e2f-ccf2d833ccd8)
-- **Location**: Ploiesti
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=c70775eb-174b-4ea9-8cea-2d68558a5faa](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=c70775eb-174b-4ea9-8cea-2d68558a5faa)
-- **Location**: Arad
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=6c160e03-ce75-4dbb-ba2d-e0b0742dcf91](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=6c160e03-ce75-4dbb-ba2d-e0b0742dcf91)
-- **Location**: Galati
-- **Status**: scraped
-
-### Agent securitate
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=85220042-371e-4179-8dc1-4a0522b078c2](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=85220042-371e-4179-8dc1-4a0522b078c2)
-- **Location**: Brasov
 - **Status**: scraped
 
 ### Consultant vanzari
@@ -80,62 +200,8 @@
 
 ### Consultant vanzari
 
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=cb4d387b-08fa-4ed1-9fc4-68ee63c53fd9](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=cb4d387b-08fa-4ed1-9fc4-68ee63c53fd9)
-- **Location**: Alexandria
-- **Status**: scraped
-
-### Consultant vanzari - materiale de constructii
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20materiale%20de%20constructii&id=7896d373-9397-4881-bec4-6f99a4fcd772](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20materiale%20de%20constructii&id=7896d373-9397-4881-bec4-6f99a4fcd772)
-- **Location**: Braila
-- **Status**: scraped
-
-### Agent securitate
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=5dcb3cc1-4448-42c2-a54f-dac126cd7716](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=5dcb3cc1-4448-42c2-a54f-dac126cd7716)
-- **Location**: Ploiesti
-- **Status**: scraped
-
-### Consultant vanzari
-
 - **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=06aa528a-e6dd-4270-96aa-a4e23770d6a0](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=06aa528a-e6dd-4270-96aa-a4e23770d6a0)
 - **Location**: Medias
-- **Status**: scraped
-
-### Casier
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Casier&id=2ef452c2-b2a9-4346-8d36-e5153b3da00f](https://recrutare.dedeman.ro/detalii-post?job=Casier&id=2ef452c2-b2a9-4346-8d36-e5153b3da00f)
-- **Location**: Ploiesti
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=44489423-00a0-46bd-972b-492b9c8b6b5e](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=44489423-00a0-46bd-972b-492b9c8b6b5e)
-- **Location**: Roman
-- **Status**: scraped
-
-### Referent servicii clienti
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Referent%20servicii%20clienti&id=2c476a5d-130a-46bb-9fed-42b5ebb17c17](https://recrutare.dedeman.ro/detalii-post?job=Referent%20servicii%20clienti&id=2c476a5d-130a-46bb-9fed-42b5ebb17c17)
-- **Location**: Cluj-Napoca
-- **Status**: scraped
-
-### Inginer constructor
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Inginer%20constructor&id=ef131095-d032-4f5d-a93d-809f561ef5b8](https://recrutare.dedeman.ro/detalii-post?job=Inginer%20constructor&id=ef131095-d032-4f5d-a93d-809f561ef5b8)
-- **Location**: Bacau
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=f72324a7-4b84-4093-8c1c-ef255f4c2d39](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=f72324a7-4b84-4093-8c1c-ef255f4c2d39)
-- **Location**: Barlad
-- **Status**: scraped
-
-### Consultant vanzari - materiale de constructii
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20materiale%20de%20constructii&id=19b3ebaa-7bd3-406a-84a5-46a443ad080d](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari%20-%20materiale%20de%20constructii&id=19b3ebaa-7bd3-406a-84a5-46a443ad080d)
-- **Location**: Miercurea Ciuc
 - **Status**: scraped
 
 ### Programator Junior - Bucuresti
@@ -150,76 +216,10 @@
 - **Location**: Bucuresti
 - **Status**: scraped
 
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=71f43318-2bc1-4f89-966e-b6908e88f77e](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=71f43318-2bc1-4f89-966e-b6908e88f77e)
-- **Location**: Satu-Mare
-- **Status**: scraped
-
-### Consultant SAP Financiar 
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20SAP%20Financiar&id=ec5715bc-e483-456d-b281-1fc936ff4b0f](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20SAP%20Financiar&id=ec5715bc-e483-456d-b281-1fc936ff4b0f)
-- **Location**: Bucuresti
-- **Status**: scraped
-
-### Consultant SAP MM
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20SAP%20MM&id=f4648fab-6e1e-414f-a385-be105bf94793](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20SAP%20MM&id=f4648fab-6e1e-414f-a385-be105bf94793)
-- **Location**: Bucuresti
-- **Status**: scraped
-
-### Programator SAP ABAP
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Programator%20SAP%20ABAP&id=96fbbe76-5df0-4da7-8fab-203dec6367c1](https://recrutare.dedeman.ro/detalii-post?job=Programator%20SAP%20ABAP&id=96fbbe76-5df0-4da7-8fab-203dec6367c1)
-- **Location**: Bucuresti
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=70ac2e16-f791-4703-8237-00e4858aa65a](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=70ac2e16-f791-4703-8237-00e4858aa65a)
-- **Location**: Bucuresti
-- **Status**: scraped
-
-### Agent securitate
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=d60949e6-488f-4880-9895-729bb54c6c49](https://recrutare.dedeman.ro/detalii-post?job=Agent%20securitate&id=d60949e6-488f-4880-9895-729bb54c6c49)
-- **Location**: Bucuresti
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=70d819fd-c263-4a4d-8f7f-499a6a46ecb6](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=70d819fd-c263-4a4d-8f7f-499a6a46ecb6)
-- **Location**: Zalau
-- **Status**: scraped
-
-### Lucrator depozit
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Lucrator%20depozit&id=0f723e0b-6852-4ddb-8ef3-d4e4fc336c76](https://recrutare.dedeman.ro/detalii-post?job=Lucrator%20depozit&id=0f723e0b-6852-4ddb-8ef3-d4e4fc336c76)
-- **Location**: Turda
-- **Status**: scraped
-
-### Manipulant marfa logistica
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Manipulant%20marfa%20logistica&id=972f1239-0c5c-4af9-9958-83d822a1579e](https://recrutare.dedeman.ro/detalii-post?job=Manipulant%20marfa%20logistica&id=972f1239-0c5c-4af9-9958-83d822a1579e)
-- **Location**: Turda
-- **Status**: scraped
-
 ### Sef raion
 
 - **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Sef%20raion&id=eb167734-134a-426c-b8d1-30efdb687cf2](https://recrutare.dedeman.ro/detalii-post?job=Sef%20raion&id=eb167734-134a-426c-b8d1-30efdb687cf2)
 - **Location**: Medias
-- **Status**: scraped
-
-### Consultant vanzari
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=879f6919-bd65-4a32-aa3f-9dbef3005220](https://recrutare.dedeman.ro/detalii-post?job=Consultant%20vanzari&id=879f6919-bd65-4a32-aa3f-9dbef3005220)
-- **Location**: Bucuresti
-- **Status**: scraped
-
-### Specialist marketing digital junior
-
-- **URL**: [https://recrutare.dedeman.ro/detalii-post?job=Specialist%20marketing%20digital%20junior&id=9c624624-7b77-4060-94ad-73acf4c2760d](https://recrutare.dedeman.ro/detalii-post?job=Specialist%20marketing%20digital%20junior&id=9c624624-7b77-4060-94ad-73acf4c2760d)
-- **Location**: Bacau
 - **Status**: scraped
 
 ### Agent securitate incinte
@@ -229,4 +229,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-21T14:14:07Z_
+_Generated at 2026-11-27T16:16:24Z_
