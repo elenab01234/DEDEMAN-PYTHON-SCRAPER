@@ -8,7 +8,7 @@
 | Brand | DEDEMAN |
 | Website | https://www.dedeman.ro |
 | Career | https://recrutare.dedeman.ro |
-| LastScraped | 2026-11-27 |
+| LastScraped | 2026-11-28 |
 
 ## Jobs (36)
 
@@ -229,4 +229,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-11-27T16:16:24Z_
+_Generated at 2026-11-28T15:09:41Z_
